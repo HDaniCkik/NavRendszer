@@ -4,60 +4,44 @@ body {
     margin: 0px;
 }
 
-ul {
+.fomenupont {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
     text-align: center;
     background-color: lightsalmon;
+
+    font-variant: small-caps;
+display: inline-block;
+text-align: center;
+font-weight: bold;
 }
 
-li {
-float: left;
+.fomenupont>li {
+    float: left;
 }
 
 
 
-ul>li {
+.fomenupont>li {
     width: 300px;
     padding: 10px;
     font-size: 2rem;
 }
 
-.pro {
-font-variant: small-caps;
-display: inline-block;
-text-align: center;
-font-weight: bold;
-}
 
-.rolunk {
-font-variant: small-caps;
-display: inline-block;
-text-align: center;
-font-weight: bold;
-}
-
-.kapcs {
-font-variant: small-caps;
-display: inline-block;
-text-align: center;
-font-weight: bold;
-}
-
-ul>li:hover {
-    color: darkgrey;
+.fomenupont>li:hover {
+    color: rgb(61, 61, 61);
     cursor: pointer;
 }
 
-li>ul {
+.fomenupont>li:hover .almenupont {
+    display: block;
+}
+
+.almenupont:hover .alalmenupont {
+    display: block;
+}
+.almenupont, .alalmenupont {
     display: none;
-}
-
-.pro:hover ul {
-    display: block;
-}
-
-.pro li {
-    display: block;
 }
