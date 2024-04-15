@@ -1,0 +1,63 @@
+body {
+    background-color: bisque;
+    height: 100vh;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+li {
+float: left;
+}
+
+
+
+ul>li {
+    width: 300px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.pro {
+font-variant: small-caps;
+display: inline-block;
+text-align: center;
+font-weight: bold;
+}
+
+.rolunk {
+font-variant: small-caps;
+display: inline-block;
+text-align: center;
+font-weight: bold;
+}
+
+.kapcs {
+font-variant: small-caps;
+display: inline-block;
+text-align: center;
+font-weight: bold;
+}
+
+ul>li:hover {
+    color: darkgrey;
+    cursor: pointer;
+}
+
+li>ul {
+    display: none;
+}
+
+.pro:hover ul {
+    display: block;
+}
+
+.pro li {
+    display: block;
+}
